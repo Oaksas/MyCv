@@ -1,0 +1,52 @@
+
+body{
+
+    background-color: saddlebrown;
+}
+nav {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Algerian';
+    bottom: 20px;
+    clear: both;
+    background-color:rgba(44,56,43 ,0.5);
+    text-align: center;
+
+    
+    
+}
+img{
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin: 10px;
+    
+
+}
+img{
+clear: right;
+    border-radius: 100%;
+    border-style:dotted;
+  
+}
+footer{
+    clear: both;
+    display: block;
+    font-size: 2rem;
+    color: white;
+    background-color:rgba(44,56,43 ,0.5);
+    text-align: right;
+    
+}
+#profile{
+
+    float: right;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    right: 50px;
+    left: 0px;
+    
+}

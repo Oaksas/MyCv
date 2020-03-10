@@ -1,0 +1,91 @@
+body{
+  
+    background-image: url(../IMAGE/sectionyoutube.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: 10px;
+    border-color: lightblue;
+    border-style: dotted;
+    margin: 10px;
+    padding: 10px;
+}
+header {
+ background-color: rgba(211, 193, 193, 0.1);
+ color: white;
+
+
+}
+section{
+    margin-top: 20px;
+padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+article{
+
+    font-size: 16px;
+    text-align: justify;
+    line-height: 15px;
+}
+.title{
+
+   font-size: 23px;
+   font-weight: bold;
+}
+.date{
+
+    font-size: 15px;
+    font-style: italic;
+    text-transform: uppercase ;
+   }
+nav ul li {
+   
+    display: inline-block;
+   
+    
+ 
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px ;
+    font-size: 20px;
+    
+}
+ul li a:link{
+
+    color: yellow;
+}
+ul li a:active{
+    color: ;
+}
+ul li a:hover{
+    color: rgb(247, 150, 6);
+    text-decoration: underline;
+
+}
+
+nav{
+    position: fixed;
+    background-color: rgba(3, 173, 68, 0.1);
+    right:10px;
+   
+
+    z-index: 0;
+    
+    
+}
+#bio{
+    float: right;
+    top: 20px;
+}
+.profile{
+    float: left;
+ 
+    max-width: 50%;
+    
+    border-radius: 100%;
+}
+nav a{
+    color: white;
+    
+}
