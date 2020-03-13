@@ -1,6 +1,7 @@
 body{
   
-    background-image: url(../IMAGE/sectionyoutube.jpg);
+    background-image: url(../IMAGE/background1.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     border: 10px;
@@ -43,6 +44,13 @@ article{
     color: gray;
     float: right;
    }
+
+
+.date:hover{
+    text-decoration: underline;
+
+
+}
 nav ul li {
    
     display: inline-block;
@@ -106,6 +114,44 @@ p{
     position: relative;
     left: 200px;
     background-color: rgba(1, 3, 2, 0.7);
-    padding: 10px;
+    background-attachment: fixed;
+    padding: 20px;
     margin-top: 0;
+    margin-bottom: 0px;
+    border-radius: 20px;
+}
+
+.source{
+
+    color: gray;
+
+}
+.source:hover{
+    color:orange;
+
+}
+#navblog{
+
+    width: 340px;
+    float: right;
+    height: 500px;
+     background-color: orange;
+}
+#profile{
+
+    float: left;
+ 
+    max-width: 15%;
+    left: 0px;
+    top: 0px;
+    
+    border-radius: 120%;
+    position: fixed;
+}
+#profiler{
+display: inline-block;
+width: 10px;
+margin-top: 20px;
+float: left;
+position: fixed;
 }
