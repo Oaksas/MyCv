@@ -203,13 +203,15 @@ Border Image and Border Shadow.
 
 <p>
     &nbsp;&nbsp;&nbsp;&nbsp;  {
-        border-image : url("IMAGE LOCATION") width ;
+        border-image : url("IMAGE LOCATION") width style;
     } <br>
     &nbsp;&nbsp;&nbsp;&nbsp;  {
-        border-shadow : a px b px c px d px #color;
+        box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;
     } <br>
-    
-    <a href="http://mrbool.com/the-new-css3-selectors/26734" target="_blank" class="source"> Read more on other source</a>
+
+    <a href="https://www.w3schools.com/cssref/css3_pr_border-image.asp" target="_blank" class="source"> Read more on other source</a>
+    <a href="https://www.w3schools.com/cssref/css3_pr_box-shadow.asp" target="_blank" class="source"> Read more on other source</a>
+
 
 </p>
 <p id="innerelement">
@@ -217,8 +219,15 @@ Border Image and Border Shadow.
     </p>
     <p>
         This cool feature allows us to add drop shodows to the text.
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;  Element{
+            text-shadow: 2px 2px  #color;
+        } 
 
     </p>
+    <br>
+    <a href="https://www.w3schools.com/cssref/css3_pr_text-shadow.asp" target="_blank" class="source"> Read more on other source</a>
+
 
     <p id="innerelement">
         Opacity
@@ -232,6 +241,9 @@ Border Image and Border Shadow.
     &nbsp;&nbsp;&nbsp;&nbsp;  Element{
         opacity : n;
     } 
+    <br>
+    <a href="https://www.w3schools.com/cssref/css3_pr_opacity.asp" target="_blank" class="source"> Read more on other source</a>
+
      
     </p>
 
@@ -251,6 +263,10 @@ Border Image and Border Shadow.
     
                    &nbsp;&nbsp;&nbsp;&nbsp;  Element{
                        color : rgba(RRR,GGG,BBB,A);
+                       <br><br>
+                       
+    <a href="https://www.bitdegree.org/learn/css3-features" target="_blank" class="source"> Read more on other source</a>
+    <a href="https://www.webfx.com/blog/web-design/rgba/"target="_blank" class="source"> Read more on other source</a>
                </li>
                <li>
                 HSL &nbsp; - &nbsp; defines colors based on Hue-saturation-lightness model. <br>
@@ -277,18 +293,81 @@ Border Image and Border Shadow.
                     <br><br>
             </li>
             <li>
-                HSL
+                Gradient &nbsp; - &nbsp; specifies the color gradient direction of any number of colors choosen. This feature divides the window of display 
+                into colors specified by percentage given by the user. Example is given below
+                <br><br>
+    
+                &nbsp;&nbsp;&nbsp;&nbsp;  Element{
+                    background: linear-gradient(to right top, #33ccff 100%, #ff99cc ,blue ,green 100%)}
+                    <br><br>
+                    <a href="https://mycolor.space/gradient?ori=to+left+top&hex=%23051937&hex2=%23A8EB12&sub=1" target="_blank" class="source"> Read more on other source</a>
+
             </li>
            </ol>
  
-    } 
+    
      
     </p>
 
+    <p class="date"> march 13 , 2020 ; 9:11PM</p>
+    <br><br>
 
-    <a href="https://www.bitdegree.org/learn/css3-features" target="_blank" class="source"> Read more on other source</a>
-    <a href="https://www.webfx.com/blog/web-design/rgba/"target="_blank" class="source"> Read more on other source</a>
-<p class="date"> march 13 , 2020 ; 9:11PM</p>
+    <p id="innerelement">
+        Transform
+        </p>
+        <p>
+Transform changes the orientation or position of an element. It does rotations, skewing in either co-ordinate axises, scaling and other actions. Examples are given below.           <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;  Element{
+                transform: rotate(10deg);
+            } 
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;  Element{
+                transform: skewx(10deg);
+            } 
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;  Element{
+                transform: scale(2);
+            } 
+            <br>
+            <a href="https://www.w3schools.com/cssref/css3_pr_transform.asp" target="_blank" class="source"> Read more on other source</a>
+
+    
+        </p>
+        <p id="innerelement">
+            Multi-Column &nbsp; Layout
+            </p>
+            <p>
+This feature is used to make as many columns as wanted without delving into lots of code. 
+                        <br><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;  container{
+                                column-count: n;
+                            } 
+                            <br>
+
+                            <a href="https://www.w3schools.com/css/css3_multiple_columns.asp" target="_blank" class="source"> Read more on other source</a>
+
+        <p class="date"> march 14 , 2020 ; 10:56AM</p>
+        
+
+        <p id="innerelement">
+            Font-face
+            </p>
+            <p>
+Web fonts in CSS allow developers to use fonts not installed in theri machine.  As a rule, a name must be given first and then the source should be defined. The name is used later to refer to the font.
+an example is given below                        <br><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;  @font-face {
+                                font-family: fontname;
+                                src: url(sansation_light.woff);
+                             }
+                            <br>
+
+                            <a href="https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp" target="_blank" class="source"> Read more on other source</a>
+
+        <p class="date"> march 14 , 2020 ; 10:56AM</p>
+        
+
+
+
 
     </article>
 
