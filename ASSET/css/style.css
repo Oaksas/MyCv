@@ -148,9 +148,9 @@ content: "⬈";
 }
 #navblog{
 
-    width: 328px;
+    width: 330px;
     float: right;
-    right: 0em;
+    right: .5em;
     height: 600px;
      background-color: rgba(61, 68, 64, 0.7);
      border-radius: 5%;
@@ -162,8 +162,8 @@ content: "⬈";
     max-width: 17%;
     left: 0px;
     top: 0px;
-    
-    border-radius: 120%;
+    border: 2px ridge;
+    border-radius: 100%;
     position: fixed;
 }
 #profiler{
@@ -194,9 +194,28 @@ position: fixed;
 #navfooter{
 
     position: relative;
-    top: 30rem;
+    top: 7rem;
 }
 #footer{
 
     margin-top: 100px;
+}
+ul p{
+
+    margin-top: 3rem;
+}
+#cv{
+    font-weight: lighter;
+    transition: transform 1s;
+    transition: color 1s;
+    text-align: center;
+
+
+}
+#cv:hover{
+    color: black;
+
+    transform: scale(1.2);
+    background-color: rgb(255, 255, 255,0.4);
+    border-radius: 20%;
 }
