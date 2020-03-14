@@ -7,6 +7,8 @@
  <link rel="stylesheet" href="ASSET/css/style.css">
  <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
 
+ 
+<link rel="icon" href="https://img.icons8.com/ios-filled/50/000000/slender-man.png">
 
 </head>
 
@@ -21,11 +23,21 @@
         
         </ul>
 
-        <ul>
-            <li>    <a href="https://www.facebook.com/amanuel.getnet.35" target="_blank"> <img src="https://img.icons8.com/bubbles/50/000000/facebook-circled.png"> </a>
+        <ul id="navfooter">
+            <li >    <a href="https://www.facebook.com/amanuel.getnet.35" target="_blank"> <img src="https://img.icons8.com/bubbles/50/000000/facebook-circled.png"> </a>
             </li>
-            <li></li>
-            <li></li>
+            <li>
+                <a href="https://t.me/OAKSAS" target ="_blank"><img src="https://img.icons8.com/bubbles/50/000000/sent.png"></a>
+
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCsWrSQ6j5cbqzdibAnfOoIQ?view_as=subscriber" target="_blank"><img src="https://img.icons8.com/doodle/50/000000/youtube-play.png"></a>
+
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/woldeamanual-getnet-48445119b" target="_blank"><img src="http://icons.iconarchive.com/icons/graphics-vibe/neon-glow-social/256/linkedin-icon.png" alt="" width="50px"></a> 
+
+            </li>
         </ul>
 
      
@@ -42,7 +54,7 @@
 <p>
     %, em and rem are relative measurement units of length used in webpages. As webpages could be run on different screen size platforms or devices, using the static and most precise measurement like pixel( px) would not be so convenient
 </p>
-<p>  Using pixels as a measurement unit in webpages, most of the time, limits users from experiencing the most from the website they want to surf. They have to use the same screen-size device as the developer in order to see all the same output as the developer. Moreover partially-visually-impaired users could not increase, let’s say, the font size of the page he/she would like to access. This would cause a bias of information among users.  The layout is also one problem: as the user with smaller or larger screen-size device might find the webpage layout changing as screen-size changes. The convenient ways to use pixel are: when we want build a website which could be used in a small team on the same screen-sized device, and when we want to preserve some constant spacing among the webpage elements.</p>
+<p>  Using pixels as a measurement unit in webpages, most of the time, limits users from experiencing the most from the website they want to surf. They have to use the same screen-size device as the developer in order to see all the same output as the developer. Moreover partially-visually-impaired users could not increase, let’s say, the font size of the page he/she would like to access. This would cause a bias of information among users.  The layout is also one problem: as the user with smaller or larger screen-size device might find the webpage layout changing as screen-size changes. The convenient ways to use pixel are: when we want build a website which could be used in a small team on the same screen-sized device, and when we want to preserve some constant spacing among the webpage Element.</p>
    
 <p>-	<b>Em</b> – these measurement is taken as a reference to its container. For example, 1 em of a paragraph in div tag is determined by in-proportion to the font size of its parent div. </p>
 
@@ -56,32 +68,155 @@
 
 </section>
 <section>
-    <p class="title"> My second Post.</p>
+    <p class="title"> How Does The Browser Interprete Pixels ? </p>
     <article>
 <p>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea veniam ullam numquam temporibus ex explicabo, sunt sit. Repellendus, neque autem?
+    CSS pixel - is the height and width of a dot that can be seen comfortably without strain.1 CSS pixel is equal to 1 physical pixel at 96 DPI ( Pixel Density) located at arm’s length from the users view point.
+</p>
+
+<p>
+    CSS pixels are basically not actual pixels. They are created for the convenience of the developers. Basically the CSS pixels change according to the zoom level of the user. On the contrary the device pixel, which is the actual pixel, does not change under any circumstances. 
+    So CSS pixels are relative to the user’s experience. 
+</p>
+
+<p>
+    So according to my conclusion, specifying the size of an element's size with a pixel larger than browser’s default pixel would make the browser act like the second device pixel in which the
+     newly specified element is situated in proportion to the browser’s full pixel size (mostly it is 16px). 
+</p>
+
+<p>
+    In full screen mode (100% zoom), the browser displays the full element as the developer sees it. For example, if the browser's font-size is 16px and the new element inside the HTML is about 32px, the size of the newly added element will look like twice the size of the fonts of the browser. 
+
 
 </p>
-<a href="https://www.quora.com/What-is-the-difference-between-em-rem-and-px-in-CSS" target="_blank" class="source"> Read more on other source</a>
 
+<p>
+    In using absolute measurement, like pixel (px), the zooming effect will not affect the size of the Element. As a result the users might experience a problem while adjusting their views. 
+
+
+</p>
+
+<p>
+
+    
+To overcome these problem, programmers use dynamic or relative measuring units like em, rem, %, vm and many others. Dynamic measuring units give the browser to interpret the document in proportion to the parent or the root specified.
+
+
+</p>
+
+<a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS_pixel" target="_blank" class="source"> Read more on other source</a>
+<a href="https://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html"target="_blank" class="source"> Read more on other source</a>
     </article>
 <p class="date"> march 14 , 2020 ; 3:00AM</p>
 
 
 </section>
 <section>
-    <p class="title"> My third Post.</p>
+    <p class="title"> Newly Added CSS Element</p>
     <article>
+<p id="innerelement">
+    Selectors 
+</p>
 <p>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea veniam ullam numquam temporibus ex explicabo, sunt sit. Repellendus, neque autem?
+    Element[attribute=”value”] &nbsp;&nbsp;= &nbsp; target an element with an attribute with a value “value”.
+</p>
+<p>
+    Element[attribute^ = “value”] &nbsp;&nbsp;=&nbsp; target and element that starts with “value”
+</p>
+
+<p>
+    
+    Element[attribute$^=”value”]&nbsp;&nbsp; =&nbsp; target and element that finishes with “value”
+</p>
+<p>
+
+        Element:nth-child(nth) &nbsp;&nbsp;=&nbsp; target the element at nth position of parent.
 
 </p>
-<a href="https://www.quora.com/What-is-the-difference-between-em-rem-and-px-in-CSS" target="_blank" class="source"> Read more on other source</a>
+<p>
+
+    Element:last-child &nbsp;&nbsp;=&nbsp; target the element at the last position of parent.
+
+</p>
+<p>
+
+    Element:last-of-type &nbsp;&nbsp;=&nbsp; target the last type of Element.
+
+</p>
+<p>
+
+    Element:only-of-type &nbsp;&nbsp;=&nbsp; target the only child element of type Element.
+
+</p>
+<p>
+
+    Element:empty &nbsp;&nbsp; = &nbsp; targets the element with no child.
+</p>
+<p>
+
+    Element:dispabled &nbsp;&nbsp; = &nbsp; targets the element with disabled elements.
+</p>
+
+<p>
+
+    :not(Element) &nbsp;&nbsp; = &nbsp; targets all other HTML elements without Element.
+</p>
+<p>
+
+    ::selection &nbsp;&nbsp; = &nbsp; targets the element that the user selects.
+</p>
+<br>
+<p id="innerelement">
+    Rounded Corners 
+</p>
+<p>
+    Before CSS3, making round borders was so difficult to archive. Progrmmers needed to write a lot of code in order to get the effect. But CSS3 made it so 
+    easy by introducing <i>border-radius</i>.
+</p>
+
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp;  {
+        border-radius : n unit;
+    }
+</p>
+<p id="innerelement">
+Border Image and Border Shadow.
+</p>
+
+<p>
+    Another cool feature of CSS3 is Border-Image. This feature allow us to change the look of the CSS border. Border-Shadow is so usefull inorder to make cool 3D effects as well. 
+
+</p>
+
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp;  {
+        border-image : url("IMAGE LOCATION") width ;
+    } <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;  {
+        border-shadow : a px b px c px d px #color;
+    }
+</p>
+<p id="innerelement">
+    Text Shadow
+    </p>
+This cool feature allows us to add drop shodows to the text.
+    <p>
+    </p>
+    
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;  {
+            text-shadow: #color a px b px c px;
+        }
+    </p>
+<a href="http://mrbool.com/the-new-css3-selectors/26734" target="_blank" class="source"> Read more on other source</a>
+<a href="http://webreference.com/authoring/css3/index-2.html"target="_blank" class="source"> Read more on other source</a>
 <p class="date"> march 15 , 2020 ; 3:00AM</p>
 
     </article>
 
-
+<p id="footer"> 
+    &copy; &nbsp; 2012 E.C &nbsp; ALL RIGHTS RESERVER
+</p>
 </section>
 
     </div>

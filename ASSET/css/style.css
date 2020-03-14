@@ -177,7 +177,26 @@ float: left;
 position: fixed;
 }
 
-#botnav{
+#innerelement{
 
-    
+    font-weight: bolder;
+    transition: transform 1s;
+    transition: color 1s;
+
+
+}
+#innerelement:hover{
+    color: black;
+
+    transform: scale(1.2);
+    background-color: white;
+}
+#navfooter{
+
+    position: relative;
+    top: 30rem;
+}
+#footer{
+
+    margin-top: 100px;
 }
