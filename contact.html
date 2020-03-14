@@ -6,138 +6,76 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Woldeamanual Getnet</title>
         <link rel="stylesheet" href="ASSET/css/stylecontact.css">
+        <link rel="stylesheet" href="ASSET/css/stylegallery.css">
     </head>
     <body style="color: white;">       
-        <nav >
-        
-            <h4><a href="index.html" target ="" >Home</a> |
-            <a href="contact.html" target ="">contact</a> |
-            <a href="gallerynew.html" target ="">gallery</a>
-            </h4>
-    
-           
-        </nav>
-       
-           
+        <nav>
+      
 
-        <img class="profile" src="ASSET/IMAGE/profile.jpg" alt="Profile Image" width="300">
-        <div  id="bio">    
-         <h1 text-color ="blue">Name:  Woldeamanual Getnet</h1>
-       <h2>  Occupation :Student</h2> 
-<h3>               <p>Hey there, I'm Woldeamanual. &nbsp; I'm second year software engineering student at Addis Ababa University.     
-</h3>            </p>
-        
-</div>
+            <img class="profile" src="ASSET/IMAGE/profile.jpg" alt="Profile Image" width="180">
+            <div  id="bio">    
+             <h1>Name:  Woldeamanual Getnet</h1>
+           <h2>  Occupation :Student</h2> 
+    <h3>            <p>Hey there, I'm Woldeamanual. &nbsp; I'm a second year software engineering student at Addis Ababa University.  </p>    
+    
+    
+    </h3>           
+    
+            
+    </div>
+    </nav>
 
    
    
+<div id="comment">
 
- 
-    <table >
-        <tr>
-            <td>   <h3>Leave Your Comment Here</h3></td>
-        </tr>
-    <form  action ="C:\wamp64\www\php.php" method = "POST" enctype="utf-8"> 
-        <tr>
-            <td><label for="fName">First Name</label></td>
-             <td><input type="search" name="fName" id="fName"  pattern = "[a-zA-z]{2,20}" title="Invalid Name" required placeholder="First Name"></td>  
+<form  action ="C:\wamp64\www\php.php" method = "POST" enctype="utf-8"> 
+<input type="search" name="name" id="fName"  pattern = "[a-zA-z]{2,20}" title="Invalid Name" required placeholder="Full Name">
                <br>
-               <td rowspan="9">
-                <h3 align  = "center">Where can you find me ? </h3>
-                <div class="mapouter"><div class="gmap_canvas"><iframe width="650px" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com">is ipv4 my ip address</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1058px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1058px;}</style></div>
-                
-               </td>
-               </tr>
 
-               <tr> <td><label for="lName">Last Name</label></td>
+Male
+<input type="radio" name="male" id="male" value = "male" required>
+   
+    Female
+    <input type="radio" name="male" id="male" value = "female" required> <br>
+    <input type="search" name="email" id="email" pattern="+@.+" title="Invalid Email" required placeholder="E-mail" required>  <br>
+
+
+     <input type="search" name="tel" id="tel" pattern = "[0-9]{10}" placeholder="0918896732" title="Incorrect Phone Number" required> <br>
+
+    select your country <br>
+    <select name="country" id="country">
+    <option value="Asia">Asia</option>
+    <option value="Africa">Africa</option>
+    <option value="USA">USA</option>
+    <option value="Europe">Europe</option>
+    <option value="South America">South America</option>
+    <option value="North America">North America</option>
+    <option value="Australia">Australia</option>
+                </select>
+                <br>
+    <input type="search" id="url" pattern = "https?://.+" title =" Invalid Website Format of URL"name="url" placeholder="Your website" required> <br>
+    <textarea name="detail" id="detail"rows="10" ></textarea>
+        <br>
+        <input type="submit" value="submit">
+
+    </form>
+</div>  
             
-               &nbsp;
-               <td><input type="search" name="lName" id="lName" required pattern = "[a-zA-z]{1,20}" title="Invalid Name" placeholder="Last Name">
-               </td>
-               &nbsp;
-               <br>
-            </tr>
-            <tr>   <td><label for="sex">Sex</label></td>
-            
-                &nbsp;
-                <td>Male
-            <input type="radio" name="male" id="male" value = "male" required>
-               
-                Female
-                <input type="radio" name="male" id="male" value = "female" required>
-                </td>
-                &nbsp;
-                <br>
-             </tr>
-            <tr>
-                <td> <label for="email">E-mail</label></td>
-                <td> <input type="email" name="email" id="email" required placeholder="E-mail">
-                </td>
 
-                <br>
-                &nbsp;
-            </tr>
-            <tr>
-                <td> <label for="tel" >Tel</label></td>
-                <td> <input type="tel" name="tel" id="tel" pattern = "[0-9]{10}" placeholder="0918896732" title="Incorrect Phone Number" required>
-                </td>
+<footer>
 
-                <br>
-                &nbsp;
-            </tr>
-
-              
-             <tr>
-                 <td>
-                <label for=""> Country</label>
-                 </td> <td>   <select name="country" id="country">
-                <option value="Asia">Asia</option>
-                <option value="Africa">Africa</option>
-                <option value="USA">USA</option>
-                <option value="Europe">Europe</option>
-                <option value="South America">South America</option>
-                <option value="North America">North America</option>
-                <option value="Australia">Australia</option>
-                            </select>
-                            <br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="url">Any Website</label>     </td>
-                                <td>
-                                    <input type="text" id="url" pattern = "https?://.+" title =" Invalid Website Format of URL"name="url">
-                                </td>
-                              
-                       
-                        </tr>
-
-       
-    
-                        <tr colspan ="2">
-                            <td><label for="detail"> <h2>Feel free to put your comment here !</h2></label></td>
-                        </tr>
-<tr>
-    
-    <br>
-<td><textarea name="detail" id="detail" cols="30" rows="10" resize="none"></textarea>   </td>          
-    &nbsp;
-  <td> <input type="submit" value="submit"></td> 
-</tr>
-              
-           </form>
-
- </table> 
- <hr>
- 
- <h3 align ="right"> <a href="https://www.facebook.com/amanuel.getnet.35" target="_blank"> <img src="https://img.icons8.com/bubbles/50/000000/facebook-circled.png"> </a>
-    <a href="https://t.me/OAKSAS" target ="_blank"><img src="https://img.icons8.com/bubbles/50/000000/sent.png"></a>
-    <a href="https://www.youtube.com/channel/UCsWrSQ6j5cbqzdibAnfOoIQ?view_as=subscriber" target="_blank"><img src="https://img.icons8.com/doodle/50/000000/youtube-play.png"></a>
- 
-    <a href="https://www.linkedin.com/in/woldeamanual-getnet-48445119b" target="_blank"><img src="http://icons.iconarchive.com/icons/graphics-vibe/neon-glow-social/256/linkedin-icon.png" alt="" width="50px"></a> 
-    <p align="center">Developed By Woldeamanual &COPY; 2012</p></h3>
- 
- <hr>         
+    <div>  <a href="https://www.facebook.com/amanuel.getnet.35" target="_blank"> <img src="https://img.icons8.com/android/30/000000/facebook-new.png"/></a>
+    </div>
+  <div> <a href="https://t.me/OAKSAS"><img src="https://img.icons8.com/material-two-tone/30/000000/telegram-app.png"/></a></div>
+  <div>                <a href="https://www.linkedin.com/in/woldeamanual-getnet-48445119b" target="_blank"><img src="https://img.icons8.com/android/30/000000/linkedin.png"/></a> 
+  </div>
+  <div> <a href="https://www.youtube.com/channel/UCsWrSQ6j5cbqzdibAnfOoIQ?view_as=subscriber"><img src="https://img.icons8.com/ios-filled/30/000000/youtube-squared.png"/></a>
+  </div>
+          <b> First version</b>
+  
+          &copy;2012 E.C
+      </footer>       
    
 
 </body>
