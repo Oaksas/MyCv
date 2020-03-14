@@ -8,10 +8,12 @@ body{
     border-color: lightblue;
     margin: 10px;
     padding: 10px;
+    font-family: 'Baloo Thambi 2', cursive;
+
 }
 header {
  color: white;
-width: 800px;
+width: 58.7vw;
 
 
 }
@@ -19,17 +21,22 @@ section{
     margin-top: 10px;
 padding: 10px;
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 }
 article{
 
-    font-size: 16px;
+    font-size: 20px;
     text-align: justify;
     line-height: 15px;
 }
+
+article::before{
+
+content:url("https://img.icons8.com/color/50/000000/hand-with-pen.png" ) "Oaksas";
+padding-right: 0.1rem;
+}
 .title{
 
-   font-size: 23px;
+   font-size: 30px;
    font-weight: bold;
    margin-top: 30px;
 }
@@ -48,9 +55,11 @@ article{
 
 .date:hover{
     text-decoration: underline;
-
-
 }
+.date::before{
+    content: "🕐";
+}
+
 nav ul li {
    
     display: inline-block;
@@ -125,23 +134,32 @@ p{
 
     color: gray;
 
+
 }
+
+.source::after{
+
+content: "⬈";
+}
+
 .source:hover{
     color:orange;
 
 }
 #navblog{
 
-    width: 340px;
+    width: 328px;
     float: right;
-    height: 500px;
-     background-color: orange;
+    right: 0em;
+    height: 600px;
+     background-color: rgba(61, 68, 64, 0.7);
+     border-radius: 5%;
 }
 #profile{
 
     float: left;
  
-    max-width: 15%;
+    max-width: 17%;
     left: 0px;
     top: 0px;
     
@@ -149,9 +167,17 @@ p{
     position: fixed;
 }
 #profiler{
-display: inline-block;
-width: 10px;
-margin-top: 20px;
+text-decoration: none;
+font-weight: normal;
+font-size: 20px;
+margin-top: 290px;
+text-align: center;
+left: 0em;
 float: left;
 position: fixed;
+}
+
+#botnav{
+
+    
 }
