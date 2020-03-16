@@ -43,6 +43,7 @@ display: flex;
 margin-top: 20%;
 margin-left: 15%;
 transition: 2s ;
+
 }
 #gallery img{
 padding-left: 3rem;
@@ -58,7 +59,9 @@ transition: .3s ease-in-out;
 }
 #gallery img:hover{
     -webkit-filter: blur(0);
-    filter: blur(0);}
+    filter: blur(0);
+
+}
 
 
 
@@ -115,6 +118,9 @@ ul li{
 .index{
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+    z-index: -1;
+
+    border-radius: 0px 100px 100px;
 
 transition: 1s;
 }
@@ -153,10 +159,22 @@ font-size: 200%;
     top: 170%;
 
 }
+
 .pad{
 
     margin-left: 10%;
     word-spacing: 3rem;
 }
 
-@media all and (max-width = )
+.skill{
+
+transition: 1s;
+
+}
+.skill:hover{
+
+    padding-left: 10%;
+
+}
+
+
