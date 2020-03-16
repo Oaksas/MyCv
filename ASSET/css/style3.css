@@ -1,0 +1,87 @@
+body{
+    background-image: url(../IMAGE/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+
+}
+nav{
+
+    background-image: url(..//IMAGE/nav-bg.jpg);
+background-repeat: no-repeat;
+position: fixed;
+width: 100%;
+z-index: 1;
+
+left: 25%;
+align-items: center;
+margin-top: 0px;
+padding: 0;
+margin-bottom: 30px;
+}
+nav li{
+
+display: inline-block;
+position: relative;
+left: 2%;
+align-items: center;
+padding: 0;
+    }
+a{
+
+    color: honeydew;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+h1{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 35%;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top:100px;
+    color: rgb(41, 9, 9);
+
+}
+
+a:hover{
+    animation-name: navigation;
+    color:rgb(41, 9, 9);
+    animation-duration: 1s;
+}
+
+@keyframes navigation {
+    to {text-decoration: underline;}
+}
+
+                    
+footer li{
+
+    display: inline;
+float:right;
+}                            
+                
+#mainpage{
+
+margin-top: 50px;
+padding-top: 200px;
+margin-bottom: 250px;
+    font-size: 90px;
+    display: block;
+    text-align: center;
+}
+#mainpage:hover{
+    animation-name: navigation;
+    color:rgb(41, 9, 9);
+    transition: transform .4s;
+    transform: scale(1.1);
+
+}
+

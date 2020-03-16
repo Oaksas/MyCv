@@ -1,0 +1,146 @@
+
+body{
+
+    background-color: saddlebrown;
+}
+
+  
+
+footer{
+    color: white;
+    background-color:rgba(44,56,43 ,0.5);
+    float: right;
+    margin-top: 2rem;
+    text-align: right;
+    width: 100%;
+    
+}
+footer div{
+    display: inline-block;
+    float: left;    
+    padding-right: 1rem;
+
+
+
+
+
+}
+#profile{
+
+    float: right;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    right: 50px;
+    left: 0px;
+    
+}
+
+#gallery{
+
+display: flex;
+margin-top: 20%;
+margin-left: 15%;
+transition: 2s ;
+}
+#gallery img{
+padding-left: 3rem;
+    width: 20rem;
+height: 27rem;
+border-radius: 100px 0px 100px 0px ;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+
+}
+
+#col1{
+float: left;
+    width: 100%;
+}
+#class{
+    float: right;
+    border-radius: 100px 0px 100px 0px ;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+
+
+}
+
+
+
+/* styles index */
+
+.heading{
+    position: relative;
+        margin-top: 300px;
+    font-size: 3rem;
+    z-index: -1;
+    text-align: center;
+}
+
+#topic{
+
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font
+}
+
+#right ul{
+    width: 100%;
+    text-align: right;
+    list-style-type: none;
+    margin-right: 5%;
+}
+#right img{
+
+    display: flex;
+    float: left;
+    position: relative;
+    left: 0em;
+    z-index: -1;
+}
+ul li{
+    list-style-type: none;
+}
+
+.index{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+
+
+}
+#experience{
+ 
+    align-items: center;
+    margin-left: 10%;
+font-size: 200%;
+    width: 80%;
+    border-bottom: 1px black solid;
+
+}
+
+#experience{
+    z-index: -2;
+
+    background-color:black;
+    opacity: 60%;
+
+}
+.icon{
+    position: absolute;
+    left:0;
+    top: 50%;
+
+}
+.icon2{
+    position: absolute;
+    left:0;
+    top: 170%;
+
+}
+.pad{
+
+    margin-left: 10%;
+    word-spacing: 3rem;
+}
