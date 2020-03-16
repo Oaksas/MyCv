@@ -33,7 +33,6 @@ footer div{
     text-align: center;
     margin-top: 200px;
     color: white;
-    right: 50px;
     left: 0px;
     
 }
@@ -51,8 +50,17 @@ padding-left: 3rem;
 height: 27rem;
 border-radius: 100px 0px 100px 0px ;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
 
 }
+#gallery img:hover{
+    -webkit-filter: blur(0);
+    filter: blur(0);}
+
+
 
 #col1{
 float: left;
@@ -108,8 +116,14 @@ ul li{
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
 
-
+transition: 1s;
 }
+.index:hover{
+
+padding-left:5%;
+}
+
+
 #experience{
  
     align-items: center;
@@ -121,7 +135,7 @@ font-size: 200%;
 }
 
 #experience{
-    z-index: -2;
+    z-index: -3;
 
     background-color:black;
     opacity: 60%;
@@ -144,3 +158,5 @@ font-size: 200%;
     margin-left: 10%;
     word-spacing: 3rem;
 }
+
+@media all and (max-width = )
