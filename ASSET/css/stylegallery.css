@@ -66,7 +66,7 @@ float: left;
     border-radius: 100px 0px 100px 0px ;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
-
+    z-index: -1;
 
 }
 
@@ -173,6 +173,7 @@ transition: 1s;
 }
 
 @media screen and (max-width: 1630px ){
+
 #gallery img{
 
     width: 25%;
