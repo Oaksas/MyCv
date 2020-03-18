@@ -328,6 +328,10 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
     color: orange;
 }
 
+::placeholder{
+
+    color: black;
+}
 
 @media screen and (max-width: 1275px ){
     #bio{
