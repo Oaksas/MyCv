@@ -160,10 +160,10 @@ p{
         background: linear-gradient(to right, white 30%, transparent 30%), linear-gradient(to bottom, #FC3D32 50%, #007E3A 50%); }
     
 
-  #Ethiopia{
+  #Bulgaria1{
 width: 30%;
 display: inline-flex;
-background-color: green;
+background-color: white;
 height: 4rem;
 margin-left: 110px;
 
@@ -171,16 +171,15 @@ margin-left: 110px;
 
 
 
-  #Ethiopia2{
+  #Bulgaria2{
 
-    margin-top: 0em;
     width: 30%;
-    background-color: yellow;
+    background-color: green;
     height: 4rem;
     margin-left: 110px;
   }
             
-  #Ethiopia3{
+  #Bulgaria3{
     width: 30%;
     background-color: red;
     height: 4rem;

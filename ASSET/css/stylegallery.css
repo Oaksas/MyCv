@@ -1,10 +1,3 @@
-
-body{
-
-}
-
-  
-
 footer{
     color: white;
     background-color:rgba(44,56,43 ,0.5);
@@ -95,7 +88,6 @@ float: left;
 
     font-size: 3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font
 }
 
 #right ul{
@@ -152,12 +144,14 @@ font-size: 200%;
     position: absolute;
     left:0;
     top: 50%;
-
+    z-index: -2;
 }
 .icon2{
     position: absolute;
     left:0;
-    top: 170%;
+    top: 167%;
+    z-index: -2;
+
 
 }
 
@@ -178,4 +172,9 @@ transition: 1s;
 
 }
 
+@media screen and (max-width: 1630px ){
+#gallery img{
 
+    width: 25%;
+}
+}
